@@ -8,12 +8,20 @@ update = git pull origin master
 
 [.config/vcsh/repo.d/zsh.git]
 checkout = vcsh clone git@github.com:mjoey/zsh.git zsh
+update = vcsh zsh pull origin master
 
 [.config/vcsh/repo.d/xresources.git]
 checkout = vcsh clone git@github.com:mjoey/xresources.git xresources 
+update = vcsh xresources pull origin master
 
 [zsh-history-substring-search]
 checkout =  git clone git@github.com:zsh-users/zsh-history-substring-search.git
+update = git pull origin master
 
 [zsh-git-prompt]
 checkout = git clone git@github.com:olivierverdier/zsh-git-prompt.git
+update = git pull origin master
+
+[.config/vcsh/repo.d/awesome.git/]
+checkout = vcsh clone git@github.com:mjoey/awesome.git awesome
+update = vcsh awesome pull origin master
