@@ -1,3 +1,7 @@
+[.config/vcsh/repo.d/vim.git]
+checkout = vcsh clone git@github.com:mjoey/vimrc.git vim
+update = vcsh vim pull origin master
+
 [.config/vcsh/repo.d/mr.git]
 checkout = vcsh clone git@github.com:mjoey/mr.git mr
 update = vcsh mr pull origin master
@@ -22,6 +26,6 @@ update = git pull origin master
 checkout = git clone git@github.com:olivierverdier/zsh-git-prompt.git
 update = git pull origin master
 
-[.config/vcsh/repo.d/awesome.git/]
+[.config/vcsh/repo.d/awesome.git]
 checkout = vcsh clone git@github.com:mjoey/awesome.git awesome
 update = vcsh awesome pull origin master
