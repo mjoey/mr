@@ -1,5 +1,5 @@
 [.config/vcsh/repo.d/gtk.git]
-checkout = vcsh clone git@github.com:mjoey/gtk.git vim
+checkout = vcsh clone git@github.com:mjoey/gtk.git gtk 
 update = vcsh gtk pull origin master
 
 [.config/vcsh/repo.d/vim.git]
