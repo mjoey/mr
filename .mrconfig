@@ -6,9 +6,9 @@ update = vcsh gtk pull origin master
 checkout = vcsh clone git@github.com:mjoey/vimrc.git vim
 update = vcsh vim pull origin master
 
-[.config/vcsh/repo.d/mr.git]
-checkout = vcsh clone git@github.com:mjoey/mr.git mr
-update = vcsh mr pull origin master
+#[.config/vcsh/repo.d/mr.git]
+#checkout = vcsh clone git@github.com:mjoey/mr.git mr
+#update = vcsh mr pull origin master
 
 [zsh-syntax-highlighting]
 checkout = git clone git@github.com:zsh-users/zsh-syntax-highlighting.git
