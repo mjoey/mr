@@ -1,39 +1,39 @@
 [.config/vcsh/repo.d/gtk.git]
-checkout = vcsh clone git@github.com:mjoey/gtk.git gtk 
+checkout = vcsh clone https://github.com:mjoey/gtk.git gtk 
 update = vcsh gtk pull origin master
 
 [.config/vcsh/repo.d/vim.git]
-checkout = vcsh clone git@github.com:mjoey/vimrc.git vim
+checkout = vcsh clone https://github.com:mjoey/vimrc.git vim
 update = vcsh vim pull origin master
 
 [.vim/bundle/Vundle.vim]
-checkout = git clone git@github.com/VundleVim/Vundle.vim.git
+checkout = git clone https://github.com/VundleVim/Vundle.vim.git
 update = git pull origin master
 
 #[.config/vcsh/repo.d/mr.git]
-#checkout = vcsh clone git@github.com:mjoey/mr.git mr
+#checkout = vcsh clone https://github.com:mjoey/mr.git mr
 #update = vcsh mr pull origin master
 
 [zsh-syntax-highlighting]
-checkout = git clone git@github.com:zsh-users/zsh-syntax-highlighting.git
+checkout = git clone https://github.com:zsh-users/zsh-syntax-highlighting.git
 update = git pull origin master
 
 [.config/vcsh/repo.d/zsh.git]
-checkout = vcsh clone git@github.com:mjoey/zsh.git zsh
+checkout = vcsh clone https://github.com:mjoey/zsh.git zsh
 update = vcsh zsh pull origin master
 
 [.config/vcsh/repo.d/xresources.git]
-checkout = vcsh clone git@github.com:mjoey/xresources.git xresources 
+checkout = vcsh clone https://github.com:mjoey/xresources.git xresources 
 update = vcsh xresources pull origin master
 
 [zsh-history-substring-search]
-checkout =  git clone git@github.com:zsh-users/zsh-history-substring-search.git
+checkout =  git clone https://github.com:zsh-users/zsh-history-substring-search.git
 update = git pull origin master
 
 [zsh-git-prompt]
-checkout = git clone git@github.com:olivierverdier/zsh-git-prompt.git
+checkout = git clone https://github.com:olivierverdier/zsh-git-prompt.git
 update = git pull origin master
 
 [.config/vcsh/repo.d/awesome.git]
-checkout = vcsh clone git@github.com:mjoey/awesome.git awesome
+checkout = vcsh clone https://github.com:mjoey/awesome.git awesome
 update = vcsh awesome pull origin master
