@@ -2,7 +2,7 @@
 
 git init
 
-git remote add origin git@github.com:mjoey/mr.git
+git remote add origin https://github.com/mjoey/mr.git
 
 git pull origin master
 
