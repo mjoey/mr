@@ -31,9 +31,10 @@ checkout =  git clone https://github.com/zsh-users/zsh-history-substring-search.
 update = git pull origin master
 
 [zsh-git-prompt]
-checkout = git clone https://github.com/olivierverdier/zsh-git-prompt.git
+checkout = git clone https://github.com/zsh-git-prompt/zsh-git-prompt.git
 update = git pull origin master
 
 [.config/vcsh/repo.d/awesome.git]
 checkout = vcsh clone https://github.com/mjoey/awesome.git awesome
 update = vcsh awesome pull origin master
+
