@@ -38,3 +38,11 @@ update = git pull origin master
 checkout = vcsh clone https://github.com/mjoey/awesome.git awesome
 update = vcsh awesome pull origin master
 
+
+[.fzf]
+checkout = 
+    git clone --depth 1 https://github.com/junegunn/fzf.git
+    ./fzf/install
+update = 
+    git pull origin master
+
